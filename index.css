@@ -1,0 +1,76 @@
+body{
+  font-family: 'Merriweather', serif, sanserif;
+  margin:0;
+  color:white;
+}
+.pic{
+  flex: 1;
+  height:100%;
+  min-width: 150px;
+  background: #42445A;
+}
+.right{
+  flex: 1;
+  color:black;
+  padding: 8px;
+  font-size:1.5vh;
+  text-align: center;
+  padding-top: 50px;
+}
+.right div{
+  margin: 3px
+}
+form{
+  display: flex;
+  flex-direction: column;
+}
+
+.heads{
+  display: flex;
+  justify-content: space-around;
+}
+  
+}
+.text{
+  background-color: #F2F2F2;
+}
+
+.container{
+  display:flex;
+  height:100%;
+  flex-direction: row;
+}
+.boxed{
+  padding-bottom: 10px;
+  box-shadow: 0 5px 5px hsla(235, 3%, 45%, 1)
+
+}
+
+button{
+  margin: 10px
+}
+
+@media screen and (max-width: 600px) {
+  .heads{
+    display: block
+  }
+  .right{
+    text-align: left;
+  }
+} 
+.error::before{
+  content:"*password do not match";
+  color:red;
+}
+.logo-cont{
+  background:rgba(99, 100, 109, 0.7);
+  margin-top: 600px;
+  font-size: 3rem;
+  display:flex ;
+  padding:20px;
+  font-family: 'Creepster', cursive;
+  font-size: 5rem 
+}
+.logo{
+  width: 90px;
+}

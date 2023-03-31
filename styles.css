@@ -1,0 +1,38 @@
+button{
+  background: rgba(86, 221, 78, 1);
+  border-radius:5px;
+  width: 150px
+}
+input{
+  border-color: #E5E7EB;
+  border:none;
+  border-bottom: 1px solid rgba(145, 147, 158, 1);
+  border-left: 1px solid grey
+}
+/*
+input:invalid{
+  border-color: red;
+}
+
+input:valid{
+  border-color: #56FF3E
+}
+*/
+.pic{
+  background:url("Images/bg.jpeg");
+  background-size: 70vh;
+  background-repeat-x:no repeat;
+}
+
+input:focus{
+  background:#7EF1FF;
+  color:black;
+  box-shadow : 2px 3px 3px #39D3B8;
+  border: 3px solid blue
+}
+input:valid{
+}
+
+input:invalid:focus{
+  border-color:red;
+}
